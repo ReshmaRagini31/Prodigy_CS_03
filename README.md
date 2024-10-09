@@ -15,7 +15,8 @@ A simple, interactive password strength checker built using Python's `tkinter` l
 
 ## Screenshots
 
-![Screenshot](screenshot.png) <!-- Add a screenshot image in your repo for visual context -->
+ ![Screenshot_Password](https://github.com/user-attachments/assets/d558608f-0163-43b9-accc-5c1733404e8a)
+<!-- Add a screenshot image in your repo for visual context -->
 
 
 ### Example
