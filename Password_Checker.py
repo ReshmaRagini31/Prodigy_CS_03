@@ -38,16 +38,16 @@ root = tk.Tk()
 root.title("Password Strength Checker")
 
 # Create and place the password entry label and entry widget
-password_label = tk.Label(root, text="Enter Password:")
+password_label = tk.Label(root, text="Enter Password:", font=("Arial",12))
 password_label.pack(pady=10)
 
-password_entry = tk.Entry(root, show=' ', width=50)
-password_entry.pack(pady=10)
+password_entry = tk.Entry(root, show='', width=50 ,font=("Arial",12))
+password_entry.pack(pady=50)
 password_entry.bind("<KeyRelease>", on_password_entry)
 
 # Label to display password strength
-label_strength = tk.Label(root, text="", fg="red")
-label_strength.pack(pady=5)
+label_strength = tk.Label(root, text="", fg="red", font=("Arial",12))
+label_strength.pack(pady=10)
 
 # Run the application
 root.mainloop()
